@@ -1,4 +1,3 @@
-/* Estilos gerais */
 
 /* Definição de estilos para o corpo do documento */
 body {
@@ -13,7 +12,8 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-}
+  }
+  
 
 /* Estilos para os cards dos participantes */
 .curriculo {
@@ -68,7 +68,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    transform-style: preserve-3d;
 }
 
 .curriculo .curriculo-front {
@@ -80,10 +79,6 @@ body {
 .curriculo .curriculo-back {
     background-color: #f9f9f9;
     transform: rotateY(-180deg);
-}
-
-.curriculo.flip .curriculo-inner {
-    transform: rotateY(180deg);
 }
 
 .curriculo .curriculo-image {
@@ -100,9 +95,6 @@ body {
 
 .curriculo .curriculo-info {
     color: #333;
-    transform: rotateY(180deg);
-    text-align: center;
-    padding: 10px;
 }
 
 .curriculo .curriculo-info h2 {
@@ -139,8 +131,10 @@ body {
     /* Negrito */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     /* Contorno preto */
+
     animation: animateText 2s infinite alternate;
 }
+
 
 @keyframes animateText {
     0% {
